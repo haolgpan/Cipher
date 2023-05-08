@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2569741f-4092-446c-bdf4-aff4a84bad0e" name="Changes" comment="Done!">
-      <change afterPath="$PROJECT_DIR$/CapturaClauAfegida.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dades.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keystore_nickname.ks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mycert.cer" afterDir="false" />
+    <list default="true" id="2569741f-4092-446c-bdf4-aff4a84bad0e" name="Changes" comment="Done 2!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UtilitatsXifrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UtilitatsXifrar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683205817613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done 2!">
+      <created>1683563770606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683563770606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +80,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done!" />
+    <MESSAGE value="Done 2!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done 2!" />
   </component>
 </project>
