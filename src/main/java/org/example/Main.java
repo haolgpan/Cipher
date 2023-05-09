@@ -275,7 +275,7 @@ public class Main {
         } else {
             System.out.println("La signatura no és vàlida.");
         }
-
+        //Exemple de signatura no vàlida
         try {
             ks = ux.loadKeyStore("keystore_nickname.ks", "cocopower");
             publicKey = getPublicKey(ks, "lamevaclaum9", "cocopower");
@@ -288,6 +288,7 @@ public class Main {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+        //A5 Clau embolcallada------------------------------------------------------------------------------------------
         PrivateKey privateKey = null;
         byte[][] dadesEmbolcallades = null;
         byte[] dadesDesembolcat = null;
