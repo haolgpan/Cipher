@@ -132,7 +132,7 @@ public class Main {
             PublicKey pubKey = keys.getPublic();
             PrivateKey privKey = keys.getPrivate();
             //Act 1.3
-            System.out.println("Solució per act 1.iii");
+            System.out.println("Solució per act 1.iii------------------------------------------------------------");
             System.out.println(pubKey.getAlgorithm() + "\n" +
             privKey.getAlgorithm() + "\n" +
             pubKey.getFormat() + "\n" +
@@ -144,7 +144,7 @@ public class Main {
 
 
             // Missatge a xifrar
-            System.out.println("Solució per act 1.i i 1.ii");
+            System.out.println("Solució per act 1.i i 1.ii------------------------------------------------------");
             System.out.println("Introdueix text a xifrar:");
             //Act 1.2
             text = sc.nextLine();
@@ -170,6 +170,7 @@ public class Main {
         String keystorePwd = "cocopower";
         KeyStore ks = null;
         try {
+            System.out.println("Solució Act2------------------------------------------------------------------------");
 
             ks = ux.loadKeyStore("keystore_nickname.ks", keystorePwd);
 
@@ -201,6 +202,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        System.out.println("Solucio 2.ii----------------------------------------------------------------------------");
         // Genera una nova clau simètrica
         keySize = 128;
         SecretKey sKeyA5 = ux.keygenKeyGeneration(keySize);
@@ -222,6 +224,7 @@ public class Main {
 
         //A5 Act 3 -----------------------------------------------------------------------------------------------------
         try {
+            System.out.println("Solució Act3-------------------------------------------------------------------------");
             PublicKey publicKey = getPublicKey("mycert.cer");
             System.out.println("Dades del certificat mycert.cer:");
             System.out.println(publicKey.toString());
@@ -232,6 +235,7 @@ public class Main {
         //A5 Act 4 -----------------------------------------------------------------------------------------------------
         PublicKey publicKey = null;
         try {
+            System.out.println("Solució Act4-------------------------------------------------------------------------");
             ks = ux.loadKeyStore("keystore_nickname.ks", "cocopower");
             Key key = ks.getKey("mykey2", keystorePwd.toCharArray());
             System.out.println(key.getClass().getName());
@@ -245,6 +249,7 @@ public class Main {
         byte[] data = null;
         byte[] signature = null;
         Path path = Paths.get("dades.txt");
+        System.out.println("Solució Act5-------------------------------------------------------------------------");
         try {
             // llegir la PrivateKey del keystore
             ks = ux.loadKeyStore("keystore_nickname.ks", "cocopower");
@@ -264,6 +269,7 @@ public class Main {
 
         //A5 Act 6 -----------------------------------------------------------------------------------------------------
         boolean isValid = ux.validateSignature(data, signature, publicKey);
+        System.out.println("Solució Act6-------------------------------------------------------------------------");
         if (isValid) {
             System.out.println("La signatura és vàlida.");
         } else {
